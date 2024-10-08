@@ -5,9 +5,9 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import Todolist from './components/Todolist.jsx'
-import { createBrowserRouter, RouterProvider  } from 'react-router-dom';
+import { createHashRouter, RouterProvider  } from 'react-router-dom';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
